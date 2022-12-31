@@ -1,4 +1,4 @@
-import { Box, Flex, Avatar, Text, Heading, HStack, ListItem, List, Link, Icon, Stack, useColorModeValue } from '@chakra-ui/react'
+import { Box, Flex, Avatar, Heading, HStack, ListItem, List, Link, Icon, Stack, useColorModeValue } from '@chakra-ui/react'
 import image from '@/public/images/kokiitoIcon.png'
 import { FaTwitter, FaGithub, FaYoutube, FaInstagram } from "react-icons/fa"
 import { ZennIcon } from '@/components/Parts/ZennIcon'
