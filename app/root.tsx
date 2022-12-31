@@ -38,8 +38,8 @@ const theme = extendTheme({
   styles: {
     global: (props: any) => ({
       body: {
-        bg: mode('#f5eb78', 'indigo')(props),
-        color: mode('indigo', '#f5eb78')(props)
+        bg: mode('white', '#353230')(props),
+        color: mode('#353230', 'white')(props)
       }
     }),
   },
