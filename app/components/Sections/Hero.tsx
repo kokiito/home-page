@@ -21,7 +21,7 @@ export const Hero = () => {
             <Heading fontSize={'24px'}>Koki Ito</Heading>
             <List marginY={'8px'}>
               <ListItem>🐶 Web Developer at Aidemy inc. (mainly frontend with TypeScript)</ListItem>
-              <ListItem>⚡️ Sometimes create game, video and keyboard</ListItem>
+              <ListItem>⚡️ Sometimes create games, videos and keyboards</ListItem>
               <ListItem>🧗 Climbing as well</ListItem>
             </List>
             <HStack spacing={'16px'} marginY={'16px'}>
