@@ -6,7 +6,9 @@
     "dev": "remix dev"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.15",
     "@chakra-ui/react": "^2.4.6",
+    "@chakra-ui/theme-tools": "^2.0.16",
     "@emotion/cache": "^11.10.5",
     "@emotion/react": "^11",
     "@emotion/server": "^11",

@@ -1,7 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@chakra-ui/icons': ^2.0.15
   '@chakra-ui/react': ^2.4.6
+  '@chakra-ui/theme-tools': ^2.0.16
   '@emotion/cache': ^11.10.5
   '@emotion/react': ^11
   '@emotion/server': ^11
@@ -24,7 +26,9 @@ specifiers:
   typescript: ^4.9.3
 
 dependencies:
+  '@chakra-ui/icons': 2.0.15_react@18.2.0
   '@chakra-ui/react': 2.4.6_6yp524rlfdss46amjfzanoyjh4
+  '@chakra-ui/theme-tools': 2.0.16
   '@emotion/cache': 11.10.5
   '@emotion/react': 11.10.5_fan5qbzahqtxlm5dzefqlqx5ia
   '@emotion/server': 11.10.0
@@ -1637,6 +1641,26 @@ packages:
       react: 18.2.0
     dev: false
 
+  /@chakra-ui/icon/3.0.14_react@18.2.0:
+    resolution: {integrity: sha512-ksNDXSByoLFNec/7UANtiy/lHt2NO3/Xe5KIde3zh70yY1QcRQjO8TjvXgYwqLbR0D6OzMGggrZnJKafeZhjRQ==}
+    peerDependencies:
+      '@chakra-ui/system': '>=2.0.0'
+      react: '>=18'
+    dependencies:
+      '@chakra-ui/shared-utils': 2.0.4
+      react: 18.2.0
+    dev: false
+
+  /@chakra-ui/icons/2.0.15_react@18.2.0:
+    resolution: {integrity: sha512-/Hsefej7DfRMg+Go+gf/UU4PHNMPmba41ogO1K3242aP9VSs/6/qXB3zrZHl21OX/rdrK408VqYEPInLmUwiHw==}
+    peerDependencies:
+      '@chakra-ui/system': '>=2.0.0'
+      react: '>=18'
+    dependencies:
+      '@chakra-ui/icon': 3.0.14_react@18.2.0
+      react: 18.2.0
+    dev: false
+
   /@chakra-ui/image/2.0.13_7wjnschhdqxnmmgtwx36wzhvlm:
     resolution: {integrity: sha512-zcTN3DuhoLCkCgCwPGvy++F9jaCE2OQjoLKJSU2Rnc0c8WjCZZqXKuRdg3GhaYc80kaVSexMSc6h04Hki+JgVQ==}
     peerDependencies:
@@ -2324,6 +2348,16 @@ packages:
       '@chakra-ui/shared-utils': 2.0.4
       '@chakra-ui/system': 2.3.7_dovxhg2tvkkxkdnqyoum6wzcxm
       react: 18.2.0
+    dev: false
+
+  /@chakra-ui/theme-tools/2.0.16:
+    resolution: {integrity: sha512-B/LD+2LNDeHYd/LVCHIJqckVZfhrycTUpNbhRVAiDRaS0AAcsPxKas7liTFkkMkM076YjiHlcla3KpVX+E9tzg==}
+    peerDependencies:
+      '@chakra-ui/styled-system': '>=2.0.0'
+    dependencies:
+      '@chakra-ui/anatomy': 2.1.1
+      '@chakra-ui/shared-utils': 2.0.4
+      color2k: 2.0.0
     dev: false
 
   /@chakra-ui/theme-tools/2.0.16_ak67p4fuwhwgy7hpxa6ejvcgoy:

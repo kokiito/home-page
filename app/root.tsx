@@ -14,6 +14,8 @@ import { extendTheme } from '@chakra-ui/react'
 import { MetaFunction, LinksFunction } from '@remix-run/node' // Depends on the runtime you choose
 
 import { ServerStyleContext, ClientStyleContext } from './context'
+import { mode } from '@chakra-ui/theme-tools'
+
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
@@ -34,12 +36,12 @@ export let links: LinksFunction = () => {
 
 const theme = extendTheme({
   styles: {
-    global: {
+    global: (props: any) => ({
       body: {
-        bg: '#f5eb78',
-        color: 'indigo',
-      },
-    },
+        bg: mode('#f5eb78', 'indigo')(props),
+        color: mode('indigo', '#f5eb78')(props)
+      }
+    }),
   },
 })
 

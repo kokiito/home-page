@@ -1,12 +1,15 @@
-import { Box, Flex, Avatar, Text, Heading, HStack, UnorderedList, ListItem, List, Link, Icon, Stack } from '@chakra-ui/react'
+import { Box, Flex, Avatar, Text, Heading, HStack, ListItem, List, Link, Icon, Stack, useColorModeValue } from '@chakra-ui/react'
 import image from '@/public/images/kokiitoIcon.png'
 import { FaTwitter, FaGithub, FaYoutube, FaInstagram } from "react-icons/fa"
 import { ZennIcon } from '@/components/Parts/ZennIcon'
+import { ColorThemeButton } from '@/components/Parts/ColorThemeButton'
 
 export const Hero = () => {
+  const borderColor = useColorModeValue('indigo', '#f5eb78')
 
   return (
     <Box w='100%' h='100vh'>
+      <Box position={'absolute'} top={'30px'} right={'40px'}><ColorThemeButton /></Box>
       <Flex justifyContent={'center'} alignItems={'center'} height={'100%'}>
         <Stack spacing={'20px'} direction={['column', 'column', 'row']}>
           <Box margin={'auto'} w={'150px'} h={'150px'}>
@@ -14,7 +17,7 @@ export const Hero = () => {
               size={'full'}
               name='Koki Ito'
               src={image}
-              border={'3px solid indigo'}
+              border={`3px solid ${borderColor}`}
             />
           </Box>
           <Box paddingX={'20px'}>
