@@ -12,7 +12,7 @@ export const Hero = () => {
 
   return (
     <Box w='100%' h='100vh' position={'relative'} bg={bg} color={color}>
-      <Box position={'absolute'} top={'30px'} right={'40px'}><ColorThemeButton /></Box>
+      <Box position={'absolute'} top={['24px', '24px', '30px']} right={['24px', '24px', '40px']}><ColorThemeButton /></Box>
       <Box position={'absolute'} bottom={'30px'} right={'calc(50% - 20px)'}><Icon as={ChevronDownIcon} w={'40px'} h={'40px'} /></Box>
       <Flex justifyContent={'center'} alignItems={'center'} height={'100%'}>
         <Stack spacing={'20px'} direction={['column', 'column', 'row']}>
@@ -24,8 +24,8 @@ export const Hero = () => {
               border={`3px solid ${color}`}
             />
           </Box>
-          <Box paddingX={'20px'}>
-            <Heading fontSize={'24px'}>Koki Ito</Heading>
+          <Box paddingX={'20px'} >
+            <Heading fontSize={['36px', '36px', '24px']}>Koki Ito</Heading>
             <List marginY={'8px'}>
               <ListItem>🐶 Web Developer at Aidemy inc. (mainly frontend with TypeScript)</ListItem>
               <ListItem>⚡️ Sometimes create games, videos and keyboards</ListItem>

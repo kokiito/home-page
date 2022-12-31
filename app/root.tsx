@@ -39,7 +39,8 @@ const theme = extendTheme({
     global: (props: any) => ({
       body: {
         bg: mode('white', '#353230')(props),
-        color: mode('#353230', 'white')(props)
+        color: mode('#353230', 'white')(props),
+        fontSize: ['24px', '24px', '16px']
       }
     }),
   },

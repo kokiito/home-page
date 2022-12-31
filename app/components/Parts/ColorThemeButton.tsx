@@ -8,7 +8,7 @@ export const ColorThemeButton = () => {
   const color = useColorModeValue('#f5eb78', 'indigo')
 
   return (
-    <Button size='sm' bg={bg} color={color} onClick={toggleColorMode}>
+    <Button fontSize={['24px', '24px', '16px']} bg={bg} color={color} onClick={toggleColorMode}>
       {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
     </Button>
   )
