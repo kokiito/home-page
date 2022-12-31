@@ -2,7 +2,7 @@ import { Box, Heading, List, ListItem, Text, Link, useColorModeValue } from '@ch
 
 export const Biography = () => {
   const color = useColorModeValue('indigo', '#f5eb78')
-  return <Box p={['32px', '32px', '48px']}>
+  return <Box py={['32px', '32px', '48px']} px={['16px', '24px', '48px']} >
     <Heading as='h1'>Biography</Heading>
     <List mt={'24px'}>
       <ListItem> <Text as='b'>1995</Text><Text>Born in Osaka, Japan</Text></ListItem>
