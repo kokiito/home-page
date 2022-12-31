@@ -14,6 +14,7 @@ export const Hero = () => {
               size={'full'}
               name='Koki Ito'
               src={image}
+              border={'3px solid indigo'}
             />
           </Box>
           <Box paddingX={'20px'}>
@@ -32,7 +33,6 @@ export const Hero = () => {
             </HStack>
           </Box>
         </Stack>
-
       </Flex>
     </Box>
   )
