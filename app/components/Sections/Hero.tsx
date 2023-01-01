@@ -6,8 +6,8 @@ import { ColorThemeButton } from '@/components/Parts/ColorThemeButton'
 import { ChevronDownIcon } from '@chakra-ui/icons'
 
 export const Hero = () => {
-  const color = useColorModeValue('indigo', '#f5eb78')
-  const bg = useColorModeValue('#f5eb78', 'indigo')
+  const color = useColorModeValue('#36028a', '#f5eb78')
+  const bg = useColorModeValue('#f5eb78', '#36028a')
 
 
   return (
@@ -22,6 +22,7 @@ export const Hero = () => {
               name='Koki Ito'
               src={image}
               border={`3px solid ${color}`}
+              bg={color}
             />
           </Box>
           <Box paddingX={'20px'} >

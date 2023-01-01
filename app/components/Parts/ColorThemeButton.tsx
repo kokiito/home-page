@@ -4,8 +4,8 @@ import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 export const ColorThemeButton = () => {
   const { colorMode, toggleColorMode } = useColorMode()
 
-  const bg = useColorModeValue('indigo', '#f5eb78')
-  const color = useColorModeValue('#f5eb78', 'indigo')
+  const bg = useColorModeValue('#36028a', '#f5eb78')
+  const color = useColorModeValue('#f5eb78', '#36028a')
   const hoverColor = useColorModeValue('#24003e', '#c6be62')
 
   return (
