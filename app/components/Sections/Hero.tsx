@@ -26,13 +26,13 @@ export const Hero = () => {
             />
           </Box>
           <Box paddingX={'20px'} >
-            <Heading fontSize={['36px', '36px', '24px']}>Koki Ito</Heading>
+            <Heading as={'h1'} fontSize={'30px'}>Koki Ito</Heading>
             <List marginY={'8px'}>
               <ListItem>🐶 Web Developer at Aidemy inc. (mainly frontend with TypeScript)</ListItem>
               <ListItem>⚡️ Sometimes create games, videos and keyboards</ListItem>
               <ListItem>🧗 Climbing as well</ListItem>
             </List>
-            <HStack spacing={'16px'} marginY={'16px'}>
+            <HStack spacing={'16px'} marginY={'16px'} fontSize={['24px', '24px', '16px']}>
               <Link href={'https://github.com/kokiito'}><Icon as={FaGithub} size={'20px'} /></Link>
               <Link href={'https://twitter.com/koki_robo'}><Icon as={FaTwitter} size={'20px'} /></Link>
               <Link href={'https://zenn.dev/kokiito_robot'}><Icon as={ZennIcon} size={'20px'} mb={'8px'} /></Link>
@@ -42,6 +42,6 @@ export const Hero = () => {
           </Box>
         </Stack>
       </Flex>
-    </Box>
+    </Box >
   )
 }

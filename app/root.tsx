@@ -40,7 +40,7 @@ const theme = extendTheme({
       body: {
         bg: mode('Gray.50', '#353230')(props),
         color: mode('#353230', 'Gray.50')(props),
-        fontSize: ['24px', '24px', '16px']
+        fontSize: '16px'
       }
     }),
   },
