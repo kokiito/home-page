@@ -3,6 +3,6 @@ import { Archive } from '~/components/Sections/Archive'
 import { Biography } from '~/components/Sections/Biography'
 export default function Index() {
   return <><Hero /><Biography />
-    {/* <Archive /> */}
+    <Archive />
   </>
 }
